@@ -6,7 +6,7 @@ public class Employee {
     private Employee() {
     }
 
-    public Employee(Integer employee_id, String firstName, String lastName, String email, String title) {
+    public Employee(String employee_id, String firstName, String lastName, String email, String title) {
         super();
         this.employee_id = employee_id;
         this.firstName = firstName;
@@ -15,7 +15,7 @@ public class Employee {
         this.title = title;
     }
 
-    private Integer employee_id;
+    private String employee_id;
     private String firstName;
     private String lastName;
     private String email;
@@ -32,12 +32,12 @@ public class Employee {
                 '}';
     }
 
-    public Integer getEmployee_id() {
+    public String getEmployee_id() {
         return employee_id;
     }
 
     public void setEmployee_id(Integer employee_id) {
-        this.employee_id = employee_id;
+        this.employee_id = String.valueOf(employee_id);
     }
 
     public String getFirstName() {

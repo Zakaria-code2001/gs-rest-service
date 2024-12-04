@@ -11,7 +11,7 @@ public class EmployeeManager {
         // Creating a few employees and adding them to the list
         list.getEmployeeList().add(
                 new Employee(
-                        1,
+                        "1",
                         "Prem",
                         "Tiwari",
                         "chapradreams@gmail.com",
@@ -19,7 +19,7 @@ public class EmployeeManager {
 
         list.getEmployeeList().add(
                 new Employee(
-                        2,
+                        "2",
                         "Vikash",
                         "Kumar",
                         "abc@gmail.com",
@@ -27,7 +27,7 @@ public class EmployeeManager {
 
         list.getEmployeeList().add(
                 new Employee(
-                        3,
+                        "3",
                         "Ritesh",
                         "Ojha",
                         "asdjf@gmail.com",
